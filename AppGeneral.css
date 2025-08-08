@@ -1,0 +1,191 @@
+
+.BgTurquesa
+{
+    text-align: center;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 35px;
+    height: 15rem;
+    width: 12rem;
+    background: #3FACB9;
+    color: white;
+}
+
+.BgTurquesa:hover
+{
+    text-align: center;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 35px;
+    height: 15rem;
+    width: 12rem;
+    background: #3fc5cf;
+    color: white;
+}
+
+.BgAmarillo
+{
+    text-align: center;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 35px;
+    height: 15rem;
+    width: 12rem;
+    background: #FEA625;
+    color: white;
+}
+
+.BgAmarillo:hover
+{
+    text-align: center;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 35px;
+    height: 15rem;
+    width: 12rem;
+    background: #febc47;
+    color: white;
+}
+
+.BgAzul
+{
+    text-align: center;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 35px;
+    height: 15rem;
+    width: 12rem;
+    background: #163C8E;
+    color: white;
+}
+
+.BgAzul:hover
+{
+    text-align: center;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 35px;
+    height: 15rem;
+    width: 12rem;
+    background: #164ca9;
+    color: white;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.NavListItem
+{
+    color: black; 
+    text-decoration: none;
+}
+
+.LinkNav
+{
+    font-size: 115%;
+    color: black; 
+    text-decoration: none;
+}
+
+.LinkNav:hover
+{
+    color: black; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.IconNav
+{
+    color: #3FACB9;
+    font-size: 135%;
+}
+
+.IconNavTop
+{
+    color: #cccccc;
+    font-size: 75%;
+}
+
+.DropdownOptions
+{
+    text-align: center;
+    width: 300px;
+    padding: 5%;
+}
+
+.IconPerson
+{
+    font-size: 400%;
+}
+
+.TextDropdown
+{
+    font-size: 110%;
+}
+
+.ContainerDropdown
+{
+    background: #CED0D4;
+    text-align: center;
+    justify-content: center;
+}
+
+.Solicitado
+{
+    color: #22126F;
+}
+
+.Proceso
+{
+    color: #FEA625;
+}
+
+.Aceptado
+{
+    color: #87BE6D;
+}
+
+.Rechazado
+{
+    color: #FE2525;
+}
+
+.Contenedor
+{
+    background-color: #FAFAFC;
+}
+
+.ImgUsuarios
+{
+    border-radius: 100px;
+}
+
+.IconEmpresa
+{
+    color: #22126F;
+}
+
+.IconCard
+{
+    color: #FEA625;
+    font-size: 125%;
+}
+
+.ImgUsuariosTable
+{
+    border-radius: 100px;
+    width: 40%;
+}
+
+.TextCardEmpresa
+{
+    font-size: 85%;
+}
