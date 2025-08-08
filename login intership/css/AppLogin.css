@@ -1,0 +1,110 @@
+body
+{
+    background-image: url('../Img/Fondo/FondoLogin.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.row1{
+    min-height: 90vh;
+}
+
+.Sidebar
+{
+    background-color: #0F3587;
+    border-top-left-radius: 0;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 20px;
+    position: absolute;
+    top: -200px;
+    left: 0;
+}
+
+.footer{
+    background-color: #0F3587;
+    position: fixed;
+    bottom: 0;
+    width: 110vw;
+    z-index: -500;
+}
+
+.ItemsNav
+{
+    background-color: #0F3587;
+    border: none;
+    margin: 0;
+}
+
+.LinkNav
+{
+    font-size: 100%;
+    color: #FFF;
+}
+
+.LinkNav:hover
+{
+    color: #FFF;
+}
+
+.TitleStyle 
+{
+    flex-direction: column;
+    align-content: center;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.TitleBlue
+{
+    font-weight: bold;
+    color: #163C8E;
+    font-size: 4.4vw;
+}
+
+.TitleYellow
+{
+    font-weight: bold;
+    color:  #FEA625;
+    font-size: 4vw;
+}
+
+.Span
+{
+    color: #163C8E;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.33vw;  
+}
+
+.FormContainer
+{
+    background-color: rgba(250, 250, 252,0.90);
+    padding: 10%;
+}
+
+.BtnLogin
+{
+    color: #FFF;
+    text-align: center;
+    font-size: 100%;
+    border-radius: 8px;
+    width: 100%;
+    background: #0F3587;
+    font-weight: bold;
+}
+
+.BtnLogin:hover
+{
+    color: #FFF;
+    background: #0f3270;
+}
+
+.Link
+{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}

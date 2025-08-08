@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Iniciar sesion</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--CDN Bootstrap v5.3-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+              integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+        
+        <link rel="stylesheet" href="CSS/AppLogin.css">
+        
+        <link rel="icon" href="Img/favicon.png" type="image/x-icon">
+    </head>
+    <body> 
+        <div class="position-absolute top-50 d-none d-lg-inline">
+            <nav id="sidebar" class="Sidebar py-3 align-self-center justify-content-start align-items-center">
+                <div class="position-sticky d-flex flex-column-reverse py-4">
+                    <ul class="nav flex-column">
+                        <li class="nav-item dropend">
+                            <a class="nav-link dropdown-toggle LinkNav" id="FacebookLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Facebook">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="FacebookLink">
+                                <a class="dropdown-item" href="">COVAO Diurno</a>
+                                <a class="dropdown-item" href="#">COVAO Nocturno</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link LinkNav " href="#" aria-label="Twitter">
+                                <i class="bi bi-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link LinkNav" href="#" aria-label="Instagram">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link LinkNav" href="#" aria-label="YouTube">
+                                <i class="bi bi-youtube"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+            
+        
+        <div class="container">
+            <div class="row row1 justify-content-center align-items-center">
+                <div class="col-12 col-md-6 d-none d-lg-inline">
+                    <div class="TitleStyle lh-1">
+                        <div class="TitleBlue text-uppercase">
+                            <span>Bienvenidos</span>
+                        </div>
+                        <div class="TitleYellow text-uppercase">
+                            <span>al programa</span>
+                        </div>
+                    </div>
+                    <span class="Span text-uppercase">De pasantías y prácticas profesionales</span>
+                </div>
+                    
+                <div class="col-12 col-md-6">
+                    <form action="" method="post">
+                        <div class="FormContainer">
+                            <div class="text-center">
+                                <img class="img-fluid w-50 pb-5" src="Img/covao-logo.png" alt="Logo COVAO"/>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control my-2" id="Correo" placeholder="Correo electrónico" required>
+                                <label for="Correo">Correo electrónico</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="password" class="form-control my-2" id="Contra" placeholder="Contraseña" required>
+                                <label for="Contra">Contraseña</label>
+                            </div>
+
+                            <div>
+                                <button class="btn BtnLogin my-4 py-2" id="BtnLogin" type="submit">INGRESAR</button>
+                            </div>
+
+                            <div class="d-grid gap-2 d-md-flex pb-5">
+                                <a class="Link" href="#">¿Olvidó su contraseña?</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="container d-inline d-lg-none">
+            <div class="row justify-content-center footer py-3">
+                <div class="col-2 text-center">
+                    <a class="nav-link dropdown-toggle LinkNav" id="FacebookLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Facebook">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="FacebookLink">
+                        <a class="dropdown-item" href="">COVAO Diurno</a>
+                        <a class="dropdown-item" href="#">COVAO Nocturno</a>
+                    </div>
+                </div>
+                <div class="col-2 text-center">
+                    <a class="nav-link LinkNav " href="#" aria-label="Twitter">
+                        <i class="bi bi-twitter"></i>
+                    </a>
+                </div>
+                <div class="col-2 text-center">
+                    <a class="nav-link LinkNav" href="#" aria-label="Instagram">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                </div>
+                <div class="col-2 text-center">
+                    <a class="nav-link LinkNav" href="#" aria-label="YouTube">
+                        <i class="bi bi-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+                
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>
+</html>

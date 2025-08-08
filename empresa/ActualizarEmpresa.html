@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+
+        <link rel="canonical" href="https://demo-basic.adminkit.io/" />
+
+        <title>Actualizar</title>
+
+        <link href="css/app.css" rel="stylesheet">
+        
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+        <link rel="icon" href="Img/favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="css/AppGeneral.css">
+        <link rel="stylesheet" href="css/Buttons.css">
+        <link rel="stylesheet" href="css/AppEmpresa.css">
+    </head>
+
+    <body>
+	<div class="wrapper">
+            <nav id="sidebar" class="sidebar js-sidebar" style="background-color: #fff;">
+		<div class=" js-simplebar">
+                    <div class="d-flex justify-content-center mt-5 mb-3">
+                        <a class="sidebar-brand" href="#">
+                            <img class="img-fluid" src="Img/covao-logo.png" alt="Logo del COVAO" width="150" height="150"/>
+                        </a>
+                    </div>
+                    
+                    <ul class="sidebar-nav px-4" style="background-color: #fff;">
+			<li class="NavListItem py-2">
+                            <a class="LinkNav" href="#">
+                                <i class="IconNav pe-2 bi bi-mortarboard align-middle"></i> <span class="align-middle">Estudiantes</span>
+                            </a>
+			</li>
+
+			<li class="NavListItem pb-2">
+                            <a class="LinkNav" href="#">
+                                <i class="IconNav pe-2 bi bi-buildings align-middle"></i> <span class="align-middle">Empresas</span>
+                            </a>
+			</li>
+
+			<li class="NavListItem pb-2">
+                            <a class="LinkNav" href="#">
+                                <i class="IconNav pe-2 bi bi-clipboard-check align-middle"></i> <span class="align-middle">Solicitudes</span>
+                            </a>
+			</li>
+
+			<li class="NavListItem pb-2">
+                            <a class="LinkNav" href="#">
+                                <i class="IconNav pe-2 bi bi-person-check-fill align-middle"></i> <span class="align-middle">Asignaciones</span>
+                            </a>
+			</li>
+
+                        <li class="NavListItem pb-2">
+                            <a class="LinkNav" href="#">
+                                <i class="IconNav pe-2 bi bi-award align-middle"></i> <span class="align-middle">Evaluaciones</span>
+                            </a>
+			</li>
+                        
+                        <li class="NavListItem pb-2">
+                            <a class="LinkNav" href="#">
+                                <i class="IconNav pe-2 bi bi-person align-middle"></i> <span class="align-middle">Usuarios</span>
+                            </a>
+			</li>
+
+                        <li class="NavListItem pb-2">
+                            <a class="LinkNav" href="#">
+                                <i class="IconNav pe-2 bi bi-bar-chart align-middle"></i> <span class="align-middle">Informes</span>
+                            </a>
+			</li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="main">
+		<nav class="navbar navbar-expand" style="background-color: #fff;">
+                    <a class="sidebar-toggle js-sidebar-toggle">
+                        <i class="hamburger align-self-center"></i>
+                    </a>
+
+                    <div class="navbar-collapse collapse">
+			<ul class="navbar-nav navbar-align">
+                            <li class="nav-item dropdown">
+				<a class="nav-icon dropdown-toggle" href="#" id="alertsDropdown" data-bs-toggle="dropdown">
+                                    <div class="position-relative">
+                                        <i class="bi bi-chat-dots-fill align-middle IconNavTop"></i>
+					
+                                    </div>
+				</a>
+				<div class="dropdown-menu dropdown-menu-lg dropdown-menu-end py-0" aria-labelledby="alertsDropdown">
+                                    <div class="dropdown-menu-header">
+									
+					</div>
+                                    <div class="list-group">
+									
+                                    </div>
+                                    <div class="dropdown-menu-footer">
+					<a href="#" class="text-muted">Mostrar todos los mensajes</a>
+                                    </div>
+				</div>
+                            </li>
+                            
+                            <li class="nav-item dropdown">
+				<a class="nav-icon dropdown-toggle" href="#" id="messagesDropdown" data-bs-toggle="dropdown">
+                                    <div class="position-relative">
+					<i class="bi bi-bell-fill align-middle IconNavTop"></i>
+                                    </div>
+				</a>
+                                
+				<div class="dropdown-menu dropdown-menu-lg dropdown-menu-end py-0" aria-labelledby="messagesDropdown">
+                                    <div class="dropdown-menu-header">
+									
+                                    </div>
+                                    <div class="list-group">
+		
+                                    </div>
+                                    <div class="dropdown-menu-footer">
+					<a href="#" class="text-muted">Mostrar todas las notificaciones</a>
+                                    </div>
+				</div>
+                            </li>
+                            
+                            <li class="nav-item dropdown">
+				<a class="nav-icon dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                    <div class="position-relative">
+                                        <i class="bi bi-person-circle align-middle"></i>
+                                    </div>
+                                </a>
+                                
+				<div class="dropdown-menu dropdown-menu-end">
+                                    <div class="DropdownOptions">
+                                        <span class="TextDropdown">¡Hola, Nombre Usuario!</span>
+                                        <div class="IconPerson position-relative">
+                                            <i class="bi bi-person-circle align-middle"></i>
+                                        </div>
+                                        <div class="btn-group mx-4" role="group" aria-label="Gestion de opciones">
+                                            <button class='BtnDropdownLeft py-2 px-1 me-2'>
+                                                Gestionar Cuenta
+                                            </button>
+                                            <button class='BtnDropdownRight py-2 px-3'>
+                                                Cerrar sesion
+                                            </button>
+                                        </div>
+                                    </div>
+				</div>
+                            </li>
+			</ul>
+                    </div>
+		</nav>
+
+		<main class="content">
+                    <div class="container-fluid">
+                        <form class="row" method="post" action=''>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                                <div class="form-check form-switch my-2">
+                                    <input class="form-check-input visually-hidden" type="checkbox" id="DesactivarToggle" data-toggle="toggle">
+                                    <label class="form-check-label" for="DesactivarToggle">
+                                        <i class="bi bi-toggle2-off ToggleIcon"></i>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                                <div class="card w-100">
+                                    <div class="card-body pt-3 pb-4">
+                                        <h6 class="text-uppercase mb-2">Perfil de empresa</h6>
+                                        <div class="d-flex justify-content-center">
+                                            <img src="Img/avatars/avatar-4.jpg" class='img-fluid LogoEmpresa mb-2' alt="Logo empresa"/>
+                                        </div>
+                                        <div class="text-center">
+                                            <h6>Nombre de la empresa</h6>
+                                            <span>Cédula</span>
+                                            <br>
+                                            <span>Actividad</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 col-xxl-8">
+                                <div class="card w-100">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <h6 class="text-uppercase">Información de contacto</h6>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="d-flex justify-content-end">
+                                                    <button class="btn IconButton"><i class="bi bi-pencil"></i></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class='mx-3'>
+                                            <div class="row d-flex align-items-center mb-2">
+                                                <div class="col-1">
+                                                    <i class="IconCard bi bi-envelope-fill me-2"></i>
+                                                </div>
+                                                <div class="col-11 col-sm-11 col-md-11 col-lg-11 col-xl-11 col-xxl-11">
+                                                    <span>Correo</span>
+                                                </div>
+                                            </div>
+                                            <div class="row d-flex align-items-center mb-2">
+                                                <div class="col-1">
+                                                    <i class="IconCard bi bi-telephone-fill me-2"></i>
+                                                </div>
+                                                <div class="col-11 col-sm-11 col-md-11 col-lg-11 col-xl-11 col-xxl-11">
+                                                    <span>Teléfono</span>
+                                                </div>
+                                            </div>
+                                            <div class="row d-flex align-items-center mb-5">
+                                                <div class="col-1">
+                                                    <i class="IconCard bi bi-geo-alt-fill me-2"></i>
+                                                </div>
+                                                <div class="col-11 col-sm-11 col-md-11 col-lg-11 col-xl-11 col-xxl-11">
+                                                    <span>Ubicación</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="row pb-5">
+                                            <div class="col-12 mb-5">
+                                                <h6>Modalidad</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class='col-12'>
+                                <div class="card">
+                                    <div class="card-body px-5">
+                                        <div class='row'>
+                                            <div class='col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12'>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <div>
+                                                        <span>Tipo Asignación</span>
+                                                    </div>
+                                                    <div>
+                                                        <span class="px-5 badge rounded-pill" style="background-color: #FEA625; color: white;">
+                                                            Directa
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class='col-12'>
+                                <div class="card">
+                                    <div class="card-body py-4">
+                                        <h6 class="text-uppercase">Requisitos</h6>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class='col-12'>
+                                <div class="card">
+                                    <div class="card-body py-4">
+                                        <h6 class="text-uppercase">Observaciones</h6>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                                <div class="d-flex justify-content-end mb-2 mt-4">
+                                    <button type="submit" class="btn BtnAzul text-uppercase px-5">
+                                          Actualizar
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </main>
+                
+                <footer class="footer">
+                    <div class="container-fluid">
+                        <div class="row text-muted">
+                            <div class="col-12 text-start">
+                                <p class="mb-0">
+                                    <a class="text-muted" href="https://sacompcr.com/" target="_blank"><strong>SAComp</strong></a> &copy;
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+        
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+	
+        <script src="JS/app.js"></script>
+        <script src="JS/AppBoton.js"></script>
+    </body>
+</html>
+

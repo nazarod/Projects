@@ -1,0 +1,68 @@
+.cuerpo {
+    padding-top: 4%;
+    padding-left: 35%;
+    padding-right: 35%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
+    width: 100%;
+    height: 100%;
+
+}
+
+.fondo{
+    background-image: url('./img/Fondo.jpg');
+
+}
+
+#logoHHC{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    
+}
+
+.login {
+    background-color: #003366; 
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding-top: 1%;
+}
+
+#ingresar{
+    background-color: #d87d0a;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    font-weight:500;
+    font-size: 110%;
+}
+
+.boxContrasena{
+
+    padding-right: 12%;
+    margin-bottom: 4%;
+    margin-top: 2%;
+    font-size: smaller;
+    font-style: italic;
+    color: white;
+}
+
+.registrar{
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: small;
+    
+}
+
+.text-box{
+    margin-left: 11%;
+    padding-right: 23%;
+}
+

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="css/login.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cuerpo fondo">
+        <div class="row">
+            <div class="col-md-12 d-flex py-5">
+                <div class="login col-md-12 mt-5 align-items-center">
+                    <img id="logoHHC" src="img/logoHHC.png" alt="20" width="200">
+                     <!--form login-->
+                    <div class="col-md-12">
+                        <!--input usuario-->
+                        <div class="col-md-12 d-flex">
+                            <p class="ms-5 p-1 mb-1">Usuario</p>
+                        </div>
+                        <div class="text-box col-md-12 d-flex">
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                <input type="text" class="form-control" id="usuario" placeholder="" >
+                            </div>
+                        </div>
+                        <div class="p-2"></div>
+                        <!--input contraseña-->
+                        <div class="col-md-12 d-flex">
+                            <p class="ms-5 p-1 mb-1">Contraseña</p>
+                        </div>
+                        <div class=" text-box col-md-12 d-flex">
+                            <div class="col-md-12">
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="fas fa-lock"></i></span>
+                                    <input type="text" class="form-control" id="contrasena" placeholder="">
+                                </div>
+                            </div>
+                            <div class="col-md-3 d-flex"></div>
+                        </div>
+                    </div>
+                    <!--fin form login-->
+                    <!-- box contraseña-->
+                    <div class="boxContrasena col-md-12 d-flex justify-content-end">
+                        <a href="" style="color: white;">¿Olvidó la contraseña?</a>
+                    </div>
+                    <!-- boton ingresar-->
+                    <div class="col-md-12">
+                        <button id="ingresar" class="btn">Ingresar</button>
+                    </div>
+                    <!-- fin boton ingresar-->
+                    <div class="p-2"></div>
+                     <!-- registrar-->
+                    <div class="registrar col-md-12 d-flex ">
+                        <p>¿No tienes una cuenta? <a href="#" style="color: white;">Regístrate aquí</a></p>
+                    </div>
+                    <div class="p-3"></div>
+                </div>
+            </div> 
+        </div>
+    </div>
+</body>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>
